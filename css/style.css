@@ -1,6 +1,12 @@
+body {
+  background-color: black;
+  color: white;
+}
+
 h1 {
-  color: #0000ff;
-  background-color: hotpink;
+  color: red;
+  text-align: center;
+  font-family: fantasy;
 }
 
 h2 {
@@ -10,9 +16,10 @@ h2 {
 
 p {
   font-family: sans-serif;
+  font-weight: 400;
 }
 
 ul {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 60px;
 }
