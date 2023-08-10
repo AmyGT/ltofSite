@@ -23,3 +23,27 @@ ul {
   font-size: 20px;
   line-height: 60px;
 }
+
+.navbar {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(31, 31, 31);
+}
+
+.navbar a {
+  float: none;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: underline overline #610000 3px;
+  font-size: 20px;
+}
+
+#tagline {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.emphasize {
+  font-weight: bold;
+}
