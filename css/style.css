@@ -10,8 +10,8 @@ h1 {
 }
 
 h2 {
-  font-style: italic;
   text-align: center;
+  text-decoration: underline;
 }
 
 p {
@@ -20,21 +20,24 @@ p {
 }
 
 ul {
-  font-size: 20px;
-  line-height: 60px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .navbar {
   text-align: center;
   padding: 20px;
   background-color: rgb(31, 31, 31);
+  width: 90vw;
 }
 
 .navbar a {
   float: none;
   color: #ffffff;
   text-align: center;
-  padding: 30px 30px;
+  padding: 30px;
   text-decoration: underline overline #610000 3px;
   font-size: 20px;
 }
@@ -50,10 +53,17 @@ ul {
 }
 
 #poster {
-  height: 500px;
+  width: 50vw;
   float: left;
-  border-style: ridge;
-  border-width: 10px;
   border-radius: 25% 10%;
-  border-color: rgba(0, 0, 0, 0.616);
+  padding: 10px;
+}
+
+#upcoming-shows {
+  padding: 30px;
+  text-align: center;
+  float: left;
+  width: 40vw;
+  /* border-style: dashed;
+  border-radius: 10% 25%; */
 }
