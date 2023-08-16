@@ -73,3 +73,8 @@ ul {
   /* border-style: dashed;
   border-radius: 10% 25%; */
 }
+
+.profile-pic {
+  height: 40vh;
+  float: left;
+}
